@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background: #76b852;
+ 
+
+}
+.title{
+  width: 380px;
+  text-align: center;   
+  font-size: 60px;   
+  color:#4caf50;             
+  display: flex;
+  vertical-align: center;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.form-container {
+  
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  height: 350px;
+
+  width: 400px;
+  background-color: white;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+.register-form {
+  width: 380px;
+  position:absolute;                 
+  bottom:0;                         
+  display: flex;
+  vertical-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-field {
+  
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.error {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:10px;
+}
+.column {
+  float: left;
+}
+
+.left {
+  font-size: 13px;
+  font-family: 'Verdana';
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
